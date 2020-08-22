@@ -1356,10 +1356,11 @@ in the scene.
                                 The public 90DNS IP adresses are:
                                 - `207.246.121.77` (USA)
                                 - `163.172.141.219`(France)
+                                
+                                WARNING: 90DNS does not carry over to new Wi-Fi / Ethernet connections automatically, 
+                                so it must be manually applied to each and every new Wi-Fi / Ethernet connection you set up.
 
-                                [Follow these steps](https://nh-server.github.io/switch-guide/extras/blocking_updates/) to set up 90dns and ensure it isn't being blocked
-
-                                You will have to manually set these for each WiFi connection you have set up.""",
+                                [Follow these steps](https://nh-server.github.io/switch-guide/extras/blocking_updates/) to set up 90dns and ensure it isn't being blocked.""",
                                 title="90DNS IP adressses")
 
     @commands.command(aliases=['missingco'])
